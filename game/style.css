@@ -1,0 +1,48 @@
+/* Gobble Run's page: a warm autumn frame around the canvas, nothing more. */
+body {
+  margin: 0;
+  background: #2b1d0e;
+  color: #f6e3b4;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+main {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 16px;
+  text-align: center;
+}
+
+h1 {
+  margin: 8px 0 12px;
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+
+canvas {
+  display: block;
+  width: 100%;
+  max-width: 1280px;
+  height: auto;
+  border: 4px solid #f2a900;
+  border-radius: 8px;
+  background: #8ec9e8;
+}
+
+#controls {
+  font-size: 17px;
+  margin: 12px 0 4px;
+}
+
+#mute-note {
+  font-size: 14px;
+  margin: 4px 0;
+  color: #c9a86a;
+}
+
+#story {
+  font-size: 16px;
+  line-height: 1.5;
+  max-width: 900px;
+  margin: 10px auto 0;
+}
